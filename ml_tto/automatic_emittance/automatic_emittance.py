@@ -151,7 +151,6 @@ class MLQuadScanEmittance(QuadScanEmittance):
         # then wait for bact to match bctrl
         # bctrl refresh rate is less than 10 ms
         start_time = time.time()
-        time.sleep(1.0)  # self.bctrl_refresh_rate)
         ii = 0
         while not np.isclose(self.magnet.bact, inputs["k"], atol=0.01):
             time.sleep(self.bctrl_refresh_rate)
