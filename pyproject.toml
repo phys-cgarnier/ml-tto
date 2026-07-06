@@ -27,7 +27,7 @@ dependencies = [
     "xopt >= 3.0.0",
     "cheetah-accelerator",
     "scikit-image",
-    "lcls_tools @ git+https://github.com/slaclab/lcls-tools.git@0.2.2",
+    "lcls_tools @ git+https://github.com/slaclab/lcls-tools.git",
     "gpsr @ git+https://github.com/roussel-ryan/gpsr.git@v0.2.0"
 ]
 description = "Tools to support high level application development at LCLS using Python"
